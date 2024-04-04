@@ -17,5 +17,7 @@
     @apply absolute top-[-25%] left-[-25%] w-[150%] h-[150%] content-[''] animate-border-spin;
   }
 
-  .card-content {}
+  .card-content {
+    @apply absolute top-[1px] left-[1px] w-[calc(100%-2px)] h-[calc(100%-2px)] rounded-2xl bg-gradient-to-b from-slate-800 to-slate-900;
+  }
 }
